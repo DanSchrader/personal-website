@@ -6,11 +6,14 @@
 }
 
 body {
-  background-color: grey;
+  background-image: linear-gradient(40deg, midnightblue, black);
+  font-family: "Lato", Arial;
+  font-size: bold;
+  color: white;
 }
 
 header {
-  background-color: black;
+  background-image: linear-gradient(40deg, black, midnightblue);
   border-radius: 30px;
   margin: 20px;
   padding: 5px 40px 20px 40px;
@@ -18,11 +21,29 @@ header {
 }
 
 section {
-  background-color: black;
+  background-image: linear-gradient(40deg, black, midnightblue);
   padding: 5px 40px 20px 40px;
   margin: 20px;
-  font-family: "Lato", Arial;
-  font-size: bold;
-  color: white;
   border-radius: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(40deg, midnightblue, black);
+  /*background-color: midnightblue;*/
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+}
+
+.profile {
+  width: 75%;
+  border-radius: 30px;
+  margin: auto;
+  display: block;
 }
