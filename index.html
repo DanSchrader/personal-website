@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <title>Daniel Schrader</title>
   </head>
   <body>
     <header>
@@ -13,21 +13,26 @@
       <nav class="navigation">
         <a class="button" href="#interests">Interests & Skills</a>
         <a class="button" href="#contact">Contact</a>
-        <a class="button" href="#social links">Find me on</a>
-        <a class="button" href="#CV">CV</a>
+        <a class="button" href="#socialmedia">Find me on</a>
+        <a class="button" href="#bio">About me</a>
       </nav>
     </header>
     <main>
-      <img class="profile" src=/images/ds_beerserker.jpg alt=""/>
+      <figure class="imgbg">
+        <img class="profile" src=./images/beerserker.jpg alt=""/>
+        <figcaption>Hello, I'm the world's tallest dwarf.</figcaption>
+      </figure>
       <section id="interests">
         <h2>Interests</h2>
         <ul>
           <li>Growing chili peppers</li>
           <li>Web Devlopment</li>
+          <li>Drinking the Heming-way</li>
+          <li>Metal</li>
         </ul>
         <h2>Skills</h2>
         <ul>
-          <li>Graphics Design on Adobe CC (Photoshop, Ilustrator, InDesign)</li>
+          <li>Graphic Design on Adobe CC (Photoshop, Illustrator, InDesign)</li>
           <li>Filming</li>
           <li>
             Video Editing & Post Production on Adobe CC (Premiere Pro, After
@@ -39,38 +44,49 @@
       <section id="contact">
         <h2>Contact</h2>
         <ul>
-          <li>Phone: +49XXX XXXXXXX</li>
-          <li>E-Mail: dhs@XXXXXXXXX.de</li>
-          <li>Website: www.XXXXXXXXX.de</li>
+          <li>Phone: +49123 4567890</li>
+          <li>E-Mail: john@doe.me</li>
+          <li>Website: www.doe.me</li>
         </ul>
       </section>
-      <section>
+      <section id="socialmedia">
         <h2>Find me on</h2>
-        <figure>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoYn-5idqoqn1rFqRdfaHOGJ1vZ_o5KhEcFw&usqp=CAU"
-            alt=""
-          />
-          <figcaption><a href="">GitHub</a></figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoYn-5idqoqn1rFqRdfaHOGJ1vZ_o5KhEcFw&usqp=CAU"
-            alt=""
-          />
-          <figcaption><a href="">Codepen</a></figcaption>
-        </figure>
-        <figure>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoYn-5idqoqn1rFqRdfaHOGJ1vZ_o5KhEcFw&usqp=CAU"
-            alt=""
-          />
-          <figcaption><a href="">LinkedIn</a></figcaption>
-        </figure>
+        <div class="social">
+          <figure class="icon">
+            <img class="logo" src="./images/394187_github_icon.png" alt="" />
+            <figcaption><a class="social-link" href="">GitHub</a></figcaption>
+          </figure>
+          <figure class="icon">
+            <img
+              class="logo"
+              src="./images/4550862_demo view_codepen_test_web developer_code_icon.png"
+              alt=""
+            />
+            <figcaption><a class="social-link" href="">Codepen</a></figcaption>
+          </figure>
+          <figure class="icon">
+            <img class="logo" src="./images/317750_linkedin_icon.png" alt="" />
+            <figcaption><a class="social-link" href="">LinkedIn</a></figcaption>
+          </figure>
+        </div>
       </section>
-      <section id="CV">
-        <h2>CV</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <section id="bio">
+        <h2>About Me</h2>
+        <p>
+          I worked as a media designer (digital, print, av) since 2012. In 2014
+          I produced and published two episodes of the audioplay "Windur, der
+          Wundersucher" for kids. <br />
+          Through content creation I also got in touch with social media
+          marketing while working for save.co, weinundbar.de and gameswelt.de.
+          <br />
+          For a long while gastronomy was my part-time passion. I started at the
+          bar, in the kitchen and in service, going on as shift supervisor and
+          marketing assistant and ended up in event managment and as a
+          gastronomer. <br />
+          Due to the pandemic I dedided for a reboot and began to teach myself
+          web development in 2021. Actually I'm participating in a web
+          development bootcamp at neuefische.de.
+        </p>
       </section>
     </main>
   </body>

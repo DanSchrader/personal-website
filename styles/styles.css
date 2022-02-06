@@ -6,22 +6,44 @@
 }
 
 body {
-  background-image: linear-gradient(40deg, midnightblue, black);
+  background-image: linear-gradient(-90deg, #000044, black);
   font-family: "Lato", Arial;
   font-size: bold;
   color: white;
 }
 
 header {
-  background-image: linear-gradient(40deg, black, midnightblue);
+  background-image: linear-gradient(-90deg, black, #000044);
   border-radius: 30px;
   margin: 20px;
   padding: 5px 40px 20px 40px;
+  /*box-shadow: 11px 10px 10px -10px #404040;*/
   color: white;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: -5px;
+}
+
+p {
+  hyphens: auto;
+  text-align: justify;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  padding-top: 10px;
+}
+
 section {
-  background-image: linear-gradient(40deg, black, midnightblue);
+  background-image: linear-gradient(-90deg, black, #000044);
   padding: 5px 40px 20px 40px;
   margin: 20px;
   border-radius: 30px;
@@ -29,21 +51,45 @@ section {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .button {
   text-decoration: none;
-  background-image: linear-gradient(40deg, midnightblue, black);
-  /*background-color: midnightblue;*/
+  background-image: linear-gradient(-90deg, #000044, black);
   color: white;
+  margin: 0px 10px 0px 10px;
   padding: 10px 20px 10px 20px;
-  border-radius: 15px;
+  border-bottom: solid silver 1px;
+  border-right: solid silver 1px;
+  border-radius: 10px;
+}
+
+.imgbg {
+  background-image: linear-gradient(-90deg, black, #000044);
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px 5px 10px 5px;
 }
 
 .profile {
-  width: 75%;
+  width: 95%;
   border-radius: 30px;
   margin: auto;
   display: block;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  border: solid white;
+  background: white;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
 }
