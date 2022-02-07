@@ -52,11 +52,13 @@ section {
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .button {
   text-decoration: none;
+  text-align: center;
   background-image: linear-gradient(-90deg, #000044, black);
   color: white;
   margin: 0px 10px 0px 10px;
@@ -64,6 +66,8 @@ section {
   border-bottom: solid silver 1px;
   border-right: solid silver 1px;
   border-radius: 8px;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 .img-bg {
@@ -83,7 +87,8 @@ section {
 
 .social {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .logo {
