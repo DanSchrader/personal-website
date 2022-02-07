@@ -14,7 +14,7 @@ body {
 
 header {
   background-image: linear-gradient(-90deg, black, #000044);
-  border-radius: 30px;
+  border-radius: 15px;
   margin: 20px;
   padding: 5px 40px 20px 40px;
   /*box-shadow: 0px 0px 15px #303030;*/
@@ -46,7 +46,7 @@ section {
   background-image: linear-gradient(-90deg, black, #000044);
   padding: 5px 40px 20px 40px;
   margin: 20px;
-  border-radius: 30px;
+  border-radius: 15px;
   /*box-shadow: 0px 0px 15px #303030;*/
 }
 
@@ -63,31 +63,32 @@ section {
   padding: 10px 20px 10px 20px;
   border-bottom: solid silver 1px;
   border-right: solid silver 1px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
-.imgbg {
+.img-bg {
   background-image: linear-gradient(-90deg, black, #000044);
   margin: 20px;
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 20px 5px 10px 5px;
   /*box-shadow: 0px 0px 15px #303030;*/
 }
 
 .profile {
   width: 95%;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: auto;
   display: block;
 }
 
 .social {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .logo {
   border: solid white;
+  border-radius: 8px;
   background: white;
 }
 
