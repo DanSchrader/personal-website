@@ -1,0 +1,17 @@
+.imagebox {
+  background-image: linear-gradient(-90deg, black, #000044);
+  margin: 20px;
+  border-radius: 15px;
+  padding: 20px 5px 10px 5px;
+}
+
+.imagebox__picture {
+  width: 95%;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.imagebox__description {
+  padding-top: 10px;
+}

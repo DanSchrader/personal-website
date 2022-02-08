@@ -4,25 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./main.css" />
     <title>Daniel Schrader</title>
   </head>
   <body>
     <header>
       <h1>Daniel Schrader</h1>
       <nav class="navigation">
-        <a class="button" href="#interests">Interests & Skills</a>
-        <a class="button" href="#contact">Contact</a>
-        <a class="button" href="#socialmedia">Find me on</a>
-        <a class="button" href="#bio">About me</a>
+        <a class="navigation__button" href="#interests">Interests & Skills</a>
+        <a class="navigation__button" href="#contact">Contact</a>
+        <a class="navigation__button" href="#socialmedia">Find me on</a>
+        <a class="navigation__button" href="#bio">About me</a>
       </nav>
     </header>
     <main>
-      <figure class="img-bg">
-        <img class="profile" src=./images/beerserker.jpg alt=""/>
-        <figcaption>Hello, I'm the world's tallest dwarf.</figcaption>
+      <figure class="imagebox">
+        <img class="imagebox__picture" src=./images/beerserker.jpg alt=""/>
+        <figcaption class="imagebox__description">Hello, I'm the world's tallest dwarf.</figcaption>
       </figure>
-      <section id="interests">
+      <section class="infobox" id="interests">
         <h2>Interests</h2>
         <ul>
           <li>Growing chili peppers</li>
@@ -41,45 +41,45 @@
           <li>Audio Recording & Editing on Cubase</li>
         </ul>
       </section>
-      <section id="contact">
+      <section class="infobox" id="contact">
         <h2>Contact</h2>
         <ul>
           <li>E-Mail: dhs@schrader-wolff-media.de</li>
           <li>Website: www.beerserker.de</li>
         </ul>
       </section>
-      <section id="socialmedia">
+      <section class="infobox" id="socialmedia">
         <h2>Find me on</h2>
-        <div class="social">
+        <div class="infobox__social">
           <figure>
             <a href="https://github.com/DanSchrader">
-              <img class="logo" src="./images/394187_github_icon.png" alt=""
+              <img class="infobox__social--logo" src="./images/394187_github_icon.png" alt=""
             /></a>
-            <figcaption><a class="social-link" href="https://github.com/DanSchrader">GitHub</a></figcaption>
+            <figcaption><a class="infobox__social--link" href="https://github.com/DanSchrader">GitHub</a></figcaption>
           </figure>
           <figure>
             <a href=https://codepen.io/danschrader>
               <img
-                class="logo"
+                class="infobox__social--logo"
                 src="./images/4550862_demo view_codepen_test_web developer_code_icon.png"
                 alt=""
               />
             </a>
-            <figcaption><a class="social-link" href="https://codepen.io/danschrader">Codepen</a></figcaption>
+            <figcaption><a class="infobox__social--link" href="https://codepen.io/danschrader">Codepen</a></figcaption>
           </figure>
           <figure>
             <a href="https://www.linkedin.com/in/daniel-schrader-beerserker/">
               <img
-                class="logo"
+                class="infobox__social--logo"
                 src="./images/317750_linkedin_icon.png"
                 alt=""
               />
             </a>
-            <figcaption><a class="social-link" href="https://www.linkedin.com/in/daniel-schrader-beerserker/">LinkedIn</a></figcaption>
+            <figcaption><a class="infobox__social--link" href="https://www.linkedin.com/in/daniel-schrader-beerserker/">LinkedIn</a></figcaption>
           </figure>
         </div>
       </section>
-      <section id="bio">
+      <section class="infobox" id="bio">
         <h2>About Me</h2>
         <p>
           I worked as a media designer (digital, print, av) since 2012. In 2014
