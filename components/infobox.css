@@ -11,13 +11,13 @@
   justify-content: center;
 }
 
-.infobox__social--logo {
+.infobox__social__logo {
   border: solid white;
   border-radius: 8px;
   background: white;
 }
 
-.infobox__social--link {
+.infobox__social__link {
   text-decoration: none;
   color: white;
 }
